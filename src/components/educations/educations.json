@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_educations_educations",
+  "info": {
+    "displayName": "educations",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "degree": {
+      "type": "string"
+    },
+    "institution": {
+      "type": "string"
+    },
+    "passingYear": {
+      "type": "string"
+    },
+    "grade": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

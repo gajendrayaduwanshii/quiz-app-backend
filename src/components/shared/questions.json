@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_questions",
+  "info": {
+    "displayName": "Questions"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "options": {
+      "type": "component",
+      "component": "shared.option",
+      "repeatable": true
+    },
+    "answer": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

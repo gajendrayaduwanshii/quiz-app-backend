@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_skills_skills",
+  "info": {
+    "displayName": "skills"
+  },
+  "options": {},
+  "attributes": {
+    "skillName": {
+      "type": "string"
+    },
+    "level": {
+      "type": "enumeration",
+      "enum": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    "yearsExperience": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

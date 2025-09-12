@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_work_experiences_work_experiences",
+  "info": {
+    "displayName": "workExperiences"
+  },
+  "options": {},
+  "attributes": {
+    "company": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "jobDescription": {
+      "type": "text"
+    },
+    "current": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "config": {}
+}

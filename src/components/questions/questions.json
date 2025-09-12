@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_questions_questions",
+  "info": {
+    "displayName": "Questions"
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "string"
+    },
+    "Options": {
+      "type": "json"
+    },
+    "Answer": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
