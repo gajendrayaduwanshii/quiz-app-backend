@@ -26,6 +26,33 @@ export interface QuestionsQuestions extends Struct.ComponentSchema {
   };
 }
 
+export interface QuizQuestionQuizQuestion extends Struct.ComponentSchema {
+  collectionName: 'components_quiz_question_quiz_questions';
+  info: {
+    displayName: 'quizQuestion';
+  };
+  attributes: {
+    answer: Schema.Attribute.String;
+    correctAnswer: Schema.Attribute.String;
+    question: Schema.Attribute.String;
+  };
+}
+
+export interface QuizResultQuizResult extends Struct.ComponentSchema {
+  collectionName: 'components_quiz_result_quiz_results';
+  info: {
+    displayName: 'quizResult';
+  };
+  attributes: {
+    quizQuestion: Schema.Attribute.Component<
+      'quiz-question.quiz-question',
+      true
+    >;
+    result: Schema.Attribute.String;
+    technology: Schema.Attribute.String;
+  };
+}
+
 export interface SharedOption extends Struct.ComponentSchema {
   collectionName: 'components_shared_options';
   info: {
@@ -88,6 +115,8 @@ declare module '@strapi/strapi' {
     export interface ComponentSchemas {
       'educations.educations': EducationsEducations;
       'questions.questions': QuestionsQuestions;
+      'quiz-question.quiz-question': QuizQuestionQuizQuestion;
+      'quiz-result.quiz-result': QuizResultQuizResult;
       'shared.option': SharedOption;
       'shared.questions': SharedQuestions;
       'skills.skills': SkillsSkills;

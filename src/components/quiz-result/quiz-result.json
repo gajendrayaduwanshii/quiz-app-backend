@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_quiz_result_quiz_results",
+  "info": {
+    "displayName": "quizResult"
+  },
+  "options": {},
+  "attributes": {
+    "technology": {
+      "type": "string"
+    },
+    "result": {
+      "type": "string"
+    },
+    "quizQuestion": {
+      "type": "component",
+      "component": "quiz-question.quiz-question",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
