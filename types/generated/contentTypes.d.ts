@@ -505,6 +505,7 @@ export interface ApiUserlistUserlist extends Struct.CollectionTypeSchema {
       'api::userlist.userlist'
     > &
       Schema.Attribute.Private;
+    mockInterviews: Schema.Attribute.JSON;
     name: Schema.Attribute.String;
     password: Schema.Attribute.String;
     phoneNumber: Schema.Attribute.String;
