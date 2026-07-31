@@ -19,6 +19,7 @@
     "@strapi/plugin-users-permissions": "5.18.1",
     "@strapi/strapi": "5.18.1",
     "better-sqlite3": "11.3.0",
+    "bcryptjs": "2.4.3",
     "pg": "^8.21.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
