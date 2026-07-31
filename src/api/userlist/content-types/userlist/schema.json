@@ -68,6 +68,14 @@
         "videos",
         "audios"
       ]
+    },
+    "quizResult": {
+      "type": "component",
+      "component": "quiz-result.quiz-result",
+      "repeatable": true
+    },
+    "mockInterviews": {
+      "type": "json"
     }
   }
 }

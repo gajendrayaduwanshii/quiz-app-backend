@@ -505,10 +505,12 @@ export interface ApiUserlistUserlist extends Struct.CollectionTypeSchema {
       'api::userlist.userlist'
     > &
       Schema.Attribute.Private;
+    mockInterviews: Schema.Attribute.JSON;
     name: Schema.Attribute.String;
     password: Schema.Attribute.String;
     phoneNumber: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    quizResult: Schema.Attribute.Component<'quiz-result.quiz-result', true>;
     skills: Schema.Attribute.Component<'skills.skills', true>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
